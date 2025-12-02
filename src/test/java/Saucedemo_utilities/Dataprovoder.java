@@ -16,7 +16,7 @@ public class Dataprovoder {
 		
 		String Logindata[][]=new String[rows][col];
 		
-		for(int i=1;i<=rows-1;i++)
+		for(int i=1;i<=rows;i++)
 		{
 			for(int j=0;j<col;j++)
 			{

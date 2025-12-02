@@ -14,8 +14,11 @@ public class Sidemenu extends BaseObject{
 	@FindBy(xpath="//button[@id='react-burger-menu-btn']") 
 	WebElement btn_hamburger;
 	
-	@FindBy(xpath="//a[@id='logout_sidebar_link']") 
+	@FindBy(xpath="//a[contains(text(),'Logout')]") 
 	WebElement a_logout;
+	
+	@FindBy(xpath="//a[@id='about_sidebar_link']")
+	WebElement abt;
 	
 	public void clickonhamburger() {
 		btn_hamburger.click();
@@ -25,6 +28,9 @@ public class Sidemenu extends BaseObject{
 		a_logout.click();	
 	}
 	
+	public void clickonabt() {
+		abt.click();
+	}
 	
 	
 

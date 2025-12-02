@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SauceDemo_TestCases.TC001_AdLogin">
+      <class name="SauceDemo_TestCases.TC002_Productlisting">
         <methods>
           <include name="baseSetUp"/>
-          <include name="adlogin" invocation-numbers="1 2 7"/>
+          <include name="verifyingtheimageextentions"/>
+          <include name="testtheproductlisting"/>
+          <include name="titlenavigation"/>
           <include name="tearDown"/>
+          <include name="imagenaivagtion"/>
         </methods>
-      </class> <!-- SauceDemo_TestCases.TC001_AdLogin -->
+      </class> <!-- SauceDemo_TestCases.TC002_Productlisting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
