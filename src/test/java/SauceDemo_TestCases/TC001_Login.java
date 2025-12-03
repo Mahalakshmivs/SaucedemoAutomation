@@ -24,7 +24,7 @@ public class TC001_Login extends saucedemo_BaseClasses {
 				Thread.sleep(2000);
 				menu.clickonhamburger();
 				menu.clickonlogout();
-				Assert.assertTrue(true);
+				Assert.assertTrue(msg);
 			} else {
 				Assert.assertTrue(false);
 			}

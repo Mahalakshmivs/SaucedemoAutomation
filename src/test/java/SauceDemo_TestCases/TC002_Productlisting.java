@@ -15,6 +15,7 @@ import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC002_Productlisting extends saucedemo_BaseClasses{
 	
+	//Validate that the 'Product Name' titles are displayed
 	@Test
 	public  void testtheproductlisting() throws InterruptedException {
 		loginpage ad = new loginpage(driver);
@@ -27,9 +28,11 @@ public class TC002_Productlisting extends saucedemo_BaseClasses{
 			 Assert.assertFalse(t.isEmpty(),"The test failed becoz the product images are blank");
 		 }
 		 System.out.println("All products title are " +titles);
-		 Thread.sleep(10000);
+		 Thread.sleep(3000);
 		 
 	}
+	
+// Validate all the 'Products Images' are displaying properly and is in the required format.
 		 @Test(dependsOnMethods = "testtheproductlisting")
 		 public void verifyingtheimageextentions() throws InterruptedException {
 			 ProductsListing pl=new ProductsListing(driver);
@@ -42,17 +45,27 @@ public class TC002_Productlisting extends saucedemo_BaseClasses{
 			 
 		 }
 		 
+	//Validate that the product details are displayed if user clicks on the image
+		 
 		 @Test(dependsOnMethods = "verifyingtheimageextentions")
 		 public void imagenaivagtion() throws InterruptedException {
 			 ProductsListing pl=new ProductsListing(driver);
-			 pl.clickoneachimages(); 
+			 List<String>allurls=pl.clickoneachimages();
+			 for(String u:allurls) {
+				 Assert.assertTrue(u.contains("inventory-item.html"), "Test failed becoz the url was not containing the correct Parameters");
+			 }
 			 Thread.sleep(4000);
 		 }
+		 
+		 ////Validate that the product details are displayed if user clicks on product name
 		 
 		 @Test(dependsOnMethods = "imagenaivagtion")
 		 public void titlenavigation() {
 			 ProductsListing pl=new ProductsListing(driver);
-			 pl.clickoneachtitle(); 
+			 List<String>allurls=pl.clickoneachtitle();
+			 for(String u:allurls) {
+				 Assert.assertTrue(u.contains("inventory-item.html"), "Test failed becoz the url was not containing the correct Parameters");
+			 }
 		 }
 		
 	}

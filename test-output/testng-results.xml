@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-02T16:59:35 IST" name="Default suite" finished-at="2025-12-02T17:00:05 IST" duration-ms="30102">
+  <suite started-at="2025-12-03T12:55:34 IST" name="Default suite" finished-at="2025-12-03T12:55:43 IST" duration-ms="8852">
     <groups>
     </groups>
-    <test started-at="2025-12-02T16:59:35 IST" name="Default test" finished-at="2025-12-02T17:00:05 IST" duration-ms="30102">
-      <class name="SauceDemo_TestCases.TC002_Productlisting">
-        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T16:59:35 IST" name="baseSetUp" finished-at="2025-12-02T16:59:39 IST" duration-ms="3946" status="PASS">
+    <test started-at="2025-12-03T12:55:34 IST" name="Default test" finished-at="2025-12-03T12:55:43 IST" duration-ms="8852">
+      <class name="SauceDemo_TestCases.TC003_ProductFilters">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@4b1d6571]" started-at="2025-12-03T12:55:34 IST" name="baseSetUp" finished-at="2025-12-03T12:55:37 IST" duration-ms="3223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseSetUp -->
-        <test-method signature="testtheproductlisting()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T16:59:39 IST" name="testtheproductlisting" finished-at="2025-12-02T16:59:50 IST" duration-ms="11254" status="PASS">
+        <test-method signature="selectionoffilters()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@4b1d6571]" started-at="2025-12-03T12:55:37 IST" name="selectionoffilters" finished-at="2025-12-03T12:55:42 IST" duration-ms="5354" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testtheproductlisting -->
-        <test-method signature="verifyingtheimageextentions()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T16:59:50 IST" name="verifyingtheimageextentions" finished-at="2025-12-02T16:59:54 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.testtheproductlisting" duration-ms="4200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyingtheimageextentions -->
-        <test-method signature="imagenaivagtion()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T16:59:54 IST" name="imagenaivagtion" finished-at="2025-12-02T17:00:02 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.verifyingtheimageextentions" duration-ms="7544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imagenaivagtion -->
-        <test-method signature="titlenavigation()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T17:00:02 IST" name="titlenavigation" finished-at="2025-12-02T17:00:04 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.imagenaivagtion" duration-ms="2655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titlenavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@6e950bcf]" started-at="2025-12-02T17:00:04 IST" name="tearDown" finished-at="2025-12-02T17:00:05 IST" duration-ms="420" status="PASS">
+        </test-method> <!-- selectionoffilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@4b1d6571]" started-at="2025-12-03T12:55:42 IST" name="tearDown" finished-at="2025-12-03T12:55:43 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SauceDemo_TestCases.TC002_Productlisting -->
+      </class> <!-- SauceDemo_TestCases.TC003_ProductFilters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
