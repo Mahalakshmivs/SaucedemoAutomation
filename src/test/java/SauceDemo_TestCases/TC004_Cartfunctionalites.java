@@ -1,72 +1,58 @@
 package SauceDemo_TestCases;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.Carts;
-import pageObjects.ProductsListing;
-import pageObjects.loginpage;
+
+
 import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC004_Cartfunctionalites extends saucedemo_BaseClasses {
 
 	@Test
-	public void addproductstocart() throws InterruptedException {
-		loginpage ad = new loginpage(driver);
-		ad.enterEmail(pro.getProperty("username"));
-		ad.enterPassword(pro.getProperty("password"));
-		ad.clicklogin();
-		ProductsListing pl = new ProductsListing(driver);
+	public void addProductsToCart() throws InterruptedException {
 		pl.clickonaddtocart();
 		Assert.assertTrue(pl.isbadgedisplayed());
 		Assert.assertEquals(pl.getthetextofbadge(), "2");
 		Thread.sleep(10000);
 	}
 
-	@Test(dependsOnMethods = "addproductstocart")
-	public void addproductsusingdesc() {
-		ProductsListing pl = new ProductsListing(driver);
+	@Test(dependsOnMethods = "addProductsToCart")
+	public void addProductsUsingDesc() {
 		pl.clickonproducttoaddcart();
 		Assert.assertTrue(pl.isbadgedisplayed());
 		Assert.assertEquals(pl.getthetextofbadge(), "4");
 	}
 
-	@Test(dependsOnMethods = "addproductsusingdesc")
-	public void cartpage() throws InterruptedException {
-		ProductsListing pl = new ProductsListing(driver);
+	@Test(dependsOnMethods = "addProductsUsingDesc")
+	public void cartPage() throws InterruptedException {
 		pl.clickoncart();
 		Thread.sleep(10000);
 	}
 
-	@Test(dependsOnMethods = "cartpage")
-	public void getnumberofitems() throws InterruptedException {
-		Carts cart = new Carts(driver);
+	@Test(dependsOnMethods = "cartPage")
+	public void getNumberOfItems() throws InterruptedException {
 		Thread.sleep(2000);
 		System.out.println(cart.numofprodutsincart());
 		Assert.assertEquals(cart.numofprodutsincart(), 4, "Test failed due to mismatch");
 	}
 
-	@Test(dependsOnMethods = "getnumberofitems")
-	public void removeproductsfromcart() {
-		Carts cart = new Carts(driver);
+	@Test(dependsOnMethods = "getNumberOfItems")
+	public void removeProductsFromCart() {
 		cart.removeoneproducts();
 		Assert.assertFalse(cart.isitempresnt());
 	}
 
-	@Test(dependsOnMethods = "removeproductsfromcart")
-	public void clickoncontinue() throws InterruptedException {
-		Carts cart = new Carts(driver);
+	@Test(dependsOnMethods = "removeProductsFromCart")
+	public void clickOnContinue() throws InterruptedException {
 		cart.scrollintobtn();
 		Thread.sleep(10000);
 		String url2 = driver.getCurrentUrl();
 		Assert.assertEquals(url2, "https://www.saucedemo.com/inventory.html");
 	}
-	@Test(dependsOnMethods = "clickoncontinue")
-	public void refershpage() {
-		ProductsListing pl = new ProductsListing(driver);
-		Carts cart = new Carts(driver);
+	@Test(dependsOnMethods = "clickOnContinue")
+	public void refreshPage() {
 		pl.clickoncart();
 		driver.navigate().refresh();
-		Assert.assertEquals(true, cart.cartitemsisdisplayed());
+		Assert.assertTrue(cart.cartitemsisdisplayed());
 	}
 
 }

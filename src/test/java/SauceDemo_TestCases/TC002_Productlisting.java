@@ -17,11 +17,7 @@ public class TC002_Productlisting extends saucedemo_BaseClasses {
 
 	// Validate that the 'Product Name' titles are displayed
 	@Test
-	public void testtheproductlisting() throws InterruptedException {
-		loginpage ad = new loginpage(driver);
-		ad.enterEmail(pro.getProperty("username"));
-		ad.enterPassword(pro.getProperty("password"));
-		ad.clicklogin();
+	public void productListing() throws InterruptedException {
 		ProductsListing pl = new ProductsListing(driver);
 		List<String> titles = pl.verifyttle();
 		for (String t : titles) {
@@ -32,9 +28,10 @@ public class TC002_Productlisting extends saucedemo_BaseClasses {
 
 	}
 
-    // Validate all the 'Products Images' are displaying properly and is in the required format.
-	@Test(dependsOnMethods = "testtheproductlisting")
-	public void verifyingtheimageextentions() throws InterruptedException {
+	// Validate all the 'Products Images' are displaying properly and is in the
+	// required format.
+	@Test(dependsOnMethods = "productListing")
+	public void imageExtentions() throws InterruptedException {
 		ProductsListing pl = new ProductsListing(driver);
 		List<String> imageextension = pl.verifyproductsimages();
 		for (String img : imageextension) {
@@ -47,8 +44,8 @@ public class TC002_Productlisting extends saucedemo_BaseClasses {
 
 	// Validate that the product details are displayed if user clicks on the image
 
-	@Test(dependsOnMethods = "verifyingtheimageextentions")
-	public void imagenaivagtion() throws InterruptedException {
+	@Test(dependsOnMethods = "imageExtentions")
+	public void imageNaivagtion() throws InterruptedException {
 		ProductsListing pl = new ProductsListing(driver);
 		List<String> allurls = pl.clickoneachimages();
 		for (String u : allurls) {
@@ -61,8 +58,8 @@ public class TC002_Productlisting extends saucedemo_BaseClasses {
 	// Validate that the product details are displayed if user clicks on product
 	// name
 
-	@Test(dependsOnMethods = "imagenaivagtion")
-	public void titlenavigation() {
+	@Test(dependsOnMethods = "imageNaivagtion")
+	public void titleNavigation() {
 		ProductsListing pl = new ProductsListing(driver);
 		List<String> allurls = pl.clickoneachtitle();
 		for (String u : allurls) {

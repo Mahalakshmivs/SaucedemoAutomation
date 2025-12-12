@@ -3,14 +3,14 @@ package SauceDemo_TestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Saucedemo_utilities.Dataprovoder;
+import Saucedemo_utilities.DataProviders;
 import pageObjects.Sidemenu;
 import pageObjects.loginpage;
 import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC001_Login extends saucedemo_BaseClasses {
 
-	@Test(dataProvider = "logindata", dataProviderClass = Dataprovoder.class)
+	@Test(dataProvider = "logindata", dataProviderClass = DataProviders.class)
 	public void adlogin(String Username, String Password, String exp) throws InterruptedException {
 
 		loginpage ad = new loginpage(driver);

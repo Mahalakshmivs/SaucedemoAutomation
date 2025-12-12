@@ -1,10 +1,9 @@
 package Saucedemo_utilities;
 
+import org.testng.annotations.DataProvider;
 import java.io.IOException;
 
-import org.testng.annotations.DataProvider;
-
-public class Dataprovoder {
+public class DataProviders {
 	
 	@DataProvider(name="logindata")
 	public String[][] getdata() throws IOException{

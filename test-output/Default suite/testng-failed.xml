@@ -3,19 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SauceDemo_TestCases.TC004_Cartfunctionalites">
+      <class name="SauceDemo_TestCases.TC006_CheckOutPage">
         <methods>
-          <include name="tocheckemptycart"/>
-          <include name="removeproductsfromcart"/>
+          <include name="gotocart"/>
           <include name="baseSetUp"/>
-          <include name="getnumberofitems"/>
-          <include name="cartpage"/>
           <include name="tearDown"/>
-          <include name="clickoncontinue"/>
-          <include name="addproductsusingdesc"/>
-          <include name="addproductstocart"/>
+          <include name="checkoutpagewithoutcred"/>
         </methods>
-      </class> <!-- SauceDemo_TestCases.TC004_Cartfunctionalites -->
+      </class> <!-- SauceDemo_TestCases.TC006_CheckOutPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
