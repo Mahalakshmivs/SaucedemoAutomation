@@ -13,7 +13,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class saucedemo_BaseClasses<DataProvoder_BAL> {
+public class saucedemo_BaseClasses{
+	
 	 public WebDriver driver;
 	 public Alert myalert;
 	 public Properties pro;
@@ -38,9 +39,11 @@ public class saucedemo_BaseClasses<DataProvoder_BAL> {
 		driver.quit();
 	}
 
+
 	public String captureScreen(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 }

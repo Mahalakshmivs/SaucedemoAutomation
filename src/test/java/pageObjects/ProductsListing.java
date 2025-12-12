@@ -26,6 +26,23 @@ public class ProductsListing extends BaseObject {
 	WebElement backtoproducts;
 	@FindBy(xpath = "//select[@class='product_sort_container']")
 	public WebElement drp_filter;
+	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
+	WebElement p1_addtocartbtn;
+	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-bike-light']")
+	WebElement p2_addtocartbtn;
+	@FindBy(xpath = "//a[@class='shopping_cart_link']")
+	public WebElement cart;
+	@FindBy(xpath = "//span[@class='shopping_cart_badge']")
+	public WebElement cartbadge;
+	@FindBy(xpath = "//div[contains(text(),'Sauce Labs Bolt T-Shirt')]")
+	public WebElement p1;
+	@FindBy(xpath = "//div[contains(text(),'Sauce Labs Fleece Jacket')]")
+	public WebElement p2;
+	@FindBy(xpath = "//button[@id='add-to-cart']")
+	public WebElement addcart;
+	
+	
+	//div[@class='cart_item']
 	
 	public List<String> verifyttle() {
 		List<String> Alltitle = new ArrayList<>();
@@ -73,20 +90,46 @@ public class ProductsListing extends BaseObject {
 		}
 		return urls;
 	}
-	
+
 	public void clickonfilter() {
 		drp_filter.click();
 	}
-	
+
 	public void selectfilters() {
-		drp=new Select(drp_filter);
-		List<WebElement> alloptions=drp.getOptions();
-		for(int i=0;i<alloptions.size();i++)
-		{
+		drp = new Select(drp_filter);
+		List<WebElement> alloptions = drp.getOptions();
+		for (int i = 0; i < alloptions.size(); i++) {
 			drp.selectByIndex(i);
 		}
-		
+	}
+
+	public void clickonaddtocart() {
+		p1_addtocartbtn.click();
+		p2_addtocartbtn.click();
 	}
 	
+	public void clickonproducttoaddcart() {
+		p1.click();
+		addcart.click();
+		backtoproducts.click();
+		p2.click();
+		addcart.click();
+		backtoproducts.click();	
+	}
+
+	public void clickoncart() {
+		cart.click();
+	}
+
+	public boolean isbadgedisplayed() {
+		boolean badge = cartbadge.isDisplayed();
+		return badge;
+	}
 	
+	public String getthetextofbadge() {
+		String badgenumbers=cartbadge.getText();
+		return  badgenumbers; 
+		
+	}
+
 }
