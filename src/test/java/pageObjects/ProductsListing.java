@@ -23,7 +23,7 @@ public class ProductsListing extends BaseObject {
 	@FindBy(xpath = "//div[@class='inventory_item_description']")
 	public List<WebElement> product_descriptions;
 	@FindBy(xpath = "//button[@name='back-to-products']")
-	WebElement backtoproducts;
+	public WebElement backtoproducts;
 	@FindBy(xpath = "//select[@class='product_sort_container']")
 	public WebElement drp_filter;
 	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")

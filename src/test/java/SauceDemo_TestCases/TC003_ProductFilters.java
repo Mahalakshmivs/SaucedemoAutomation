@@ -1,6 +1,8 @@
 package SauceDemo_TestCases;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,10 +24,10 @@ public class TC003_ProductFilters extends saucedemo_BaseClasses {
 	}
 
 	@Test(dependsOnMethods = "verifyDisplayofDropdown")
-	public void selectionOfFilters() throws InterruptedException {
+	public void selectionOfFilters() {
 		ProductsListing pl = new ProductsListing(driver);
+		mywait.until(ExpectedConditions.visibilityOf(pl.drp_filter));
 		pl.clickonfilter();
-		Thread.sleep(2000);
 		pl.selectfilters();
 	}
 
