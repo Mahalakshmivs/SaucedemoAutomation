@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -28,6 +29,7 @@ public class saucedemo_BaseClasses{
 	 public Carts cart;
 	 public loginpage ad;
 	 public Checkout check;
+	 public WebDriverWait mywait;
 	
 	@BeforeClass
 	public void baseSetUp() throws IOException{
@@ -37,7 +39,7 @@ public class saucedemo_BaseClasses{
 		pro.load(filepath);
 		driver=new ChromeDriver();
 		driver.get(pro.getProperty("url"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		mywait=new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		ad = new loginpage(driver);
 		pl= new ProductsListing(driver);
@@ -57,7 +59,6 @@ public class saucedemo_BaseClasses{
 
 
 	public String captureScreen(String name) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
