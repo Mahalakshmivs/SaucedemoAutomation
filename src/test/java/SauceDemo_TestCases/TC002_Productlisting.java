@@ -9,55 +9,50 @@ import pageObjects.ProductsListing;
 import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC002_Productlisting extends saucedemo_BaseClasses {
-
 	// Validate that the 'Product Name' titles are displayed
 	@Test
-	public void productListing() {
+	public void productListing() throws InterruptedException {
 		ProductsListing pl = new ProductsListing(driver);
 		mywait.until(ExpectedConditions.visibilityOfAllElements(pl.product_title));
-		List<String> titles = pl.verifyttle();
+		List<String> titles = pl.verifyTitle();
 		for (String t : titles) {
-			Assert.assertFalse(t.isEmpty(), "The test failed becoz the product images are blank");
+			Assert.assertFalse(t.isEmpty(), "The test failed because the product titles are blank");
 		}
-		System.out.println("All products title are " + titles);
+		System.out.println("Product titles displayed: " + titles);
+		Thread.sleep(10000);
 	}
-
 	// Validate all the 'Products Images' are displaying properly and is in the
 	// required format.
 	@Test(dependsOnMethods = "productListing")
-	public void imageExtentions() {
+	public void imageExtensions() {
 		ProductsListing pl = new ProductsListing(driver);
 		mywait.until(ExpectedConditions.visibilityOfAllElements(pl.product_images));
-		List<String> imageextension = pl.verifyproductsimages();
-		for (String img : imageextension) {
-			Assert.assertTrue(img.endsWith(".jpg"), "The image does not contain file extension of ending with .jpg");
+		List<String> imageExtension = pl.verifyproductsimages();
+		for (String img : imageExtension) {
+			Assert.assertTrue(img.toLowerCase().endsWith(".jpg"),"Image does not have .jpg extension: " + img);
 		}
-		System.out.println("All products images are " + imageextension);
+		System.out.println("All products images are " + imageExtension);
 	}
 
 	// Validate that the product details are displayed if user clicks on the image
-	@Test(dependsOnMethods = "imageExtentions")
-	public void imageNaivagtion() throws InterruptedException {
+	@Test(dependsOnMethods = "imageExtensions")
+	public void imageNavigation() {
 		ProductsListing pl = new ProductsListing(driver);
-		Thread.sleep(10000);
-		List<String> allurls = pl.clickoneachimages();
-		for (String u : allurls) {
+		List<String> allUrls = pl.clickoneachimages();
+		for (String u : allUrls) {
 			Assert.assertTrue(u.contains("inventory-item.html"),
-					"Test failed becoz the url was not containing the correct Parameters");
+					"Test failed becoz the url was not containing the Expected Parameters");
 		}
 	}
-
 	// Validate that the product details are displayed if user clicks on product
 	// name
-	@Test(dependsOnMethods = "imageNaivagtion")
-	public void titleNavigation() throws InterruptedException {
+	@Test(dependsOnMethods = "imageNavigation")
+	public void titleNavigation()  {
 		ProductsListing pl = new ProductsListing(driver);
-		Thread.sleep(10000);
-		List<String> allurls = pl.clickoneachtitle();
-		for (String u : allurls) {
+		List<String> allUrls = pl.clickoneachtitle();
+		for (String u : allUrls) {
 			Assert.assertTrue(u.contains("inventory-item.html"),
-					"Test failed becoz the url was not containing the correct Parameters");
+					"Test failed becoz the url was not containing the Expected Parameters");
 		}
 	}
-
 }

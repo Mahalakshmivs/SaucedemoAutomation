@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SauceDemo_TestCases.TC002_Productlisting">
+      <class name="SauceDemo_TestCases.TC006_CheckOutPage">
         <methods>
-          <include name="productListing"/>
-          <include name="imageExtentions"/>
+          <include name="gotocart"/>
           <include name="baseSetUp"/>
-          <include name="titleNavigation"/>
-          <include name="imageNaivagtion"/>
+          <include name="testCheckOutPage" invocation-numbers="0 1 2 3 4 5"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- SauceDemo_TestCases.TC002_Productlisting -->
+      </class> <!-- SauceDemo_TestCases.TC006_CheckOutPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

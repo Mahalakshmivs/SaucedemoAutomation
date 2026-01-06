@@ -1,13 +1,11 @@
 package SauceDemo_TestCases;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.ProductsListing;
-import pageObjects.loginpage;
 import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC003_ProductFilters extends saucedemo_BaseClasses {
@@ -16,10 +14,11 @@ public class TC003_ProductFilters extends saucedemo_BaseClasses {
 	// vaild the dropwndown is also displayed
 
 	@Test
-	public void verifyDisplayofDropdown() {
+	public void verifyDisplayofDropdown() throws InterruptedException {
 		ProductsListing pl = new ProductsListing(driver);
 		WebElement drpdisplayed = pl.drp_filter;
 		Assert.assertEquals(drpdisplayed.isDisplayed(), true);
+		Thread.sleep(2000);
 
 	}
 
