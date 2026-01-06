@@ -9,7 +9,7 @@ public class Dataprovider_Checkout {
 	@DataProvider(name="CheckoutPageData")
 	public String[][] getDataCheckout() throws IOException {
 		
-		String path="C:\\Users\\Mahalakshmi.vs\\Downloads\\CheckoutData1.xlsx";
+		String path="D:\\Javaprograming\\TestAutomation1\\TestData\\CheckoutData1.xlsx";
 		
 		ExcelUtility exe=new ExcelUtility(path);
 		

@@ -26,6 +26,7 @@ public class TC006_CheckOutPage extends saucedemo_BaseClasses {
 		if (expected.equalsIgnoreCase("valid")) {
 			Assert.assertTrue(overview, "Test passed for th valid data ");
 		} else if (expected.equalsIgnoreCase("invalid")) {
+			
 			if (overview == true) {
 				check.cancelAction();
 			}
