@@ -10,6 +10,7 @@ import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC001_Login extends saucedemo_BaseClasses {
 
+	//Login with 
 	@Test(dataProvider = "logindata", dataProviderClass = DataProviders.class)
 	public void adlogin(String Username, String Password, String exp) throws InterruptedException {
 
@@ -18,6 +19,7 @@ public class TC001_Login extends saucedemo_BaseClasses {
 		ad.enterEmail(Username);
 		ad.enterPassword(Password);
 		ad.clicklogin();
+		Thread.sleep(10000);
 		boolean msg = ad.logoisplayed();
 		if (exp.equalsIgnoreCase("valid")) {
 			if (msg == true) {
@@ -26,6 +28,7 @@ public class TC001_Login extends saucedemo_BaseClasses {
 				menu.clickonlogout();
 				Assert.assertTrue(msg);
 			} else {
+				Thread.sleep(10000);
 				Assert.assertTrue(false);
 			}
 		}

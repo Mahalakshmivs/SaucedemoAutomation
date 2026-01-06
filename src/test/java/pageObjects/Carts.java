@@ -18,7 +18,7 @@ public class Carts extends BaseObject {
 
 	@FindBy(xpath = "//div[contains(text(),'Sauce Labs Backpack')]")
 	WebElement removedproduct;
-
+	
 	@FindBy(xpath = "//button[@id='remove-sauce-labs-backpack']")
 	WebElement remove;
 	
@@ -33,10 +33,9 @@ public class Carts extends BaseObject {
 	
 	@FindBy(xpath="//div[@class='cart_item']")
 	WebElement cartitem;
-    
-	// verify the number of cart items present
+
+	
 	public int numofprodutsincart() {
-		// PageFactory.initElements(driver, this);
 		return cartitems.size();
 	}
 	public void removeoneproducts() {

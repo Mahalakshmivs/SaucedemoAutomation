@@ -16,10 +16,11 @@ public class TC004_Cartfunctionalites extends saucedemo_BaseClasses {
 	}
 
 	@Test(dependsOnMethods = "addProductsToCart")
-	public void addProductsUsingDesc() {
+	public void addProductsUsingDesc() throws InterruptedException {
 		pl.clickonproducttoaddcart();
 		Assert.assertTrue(pl.isbadgedisplayed());
 		Assert.assertEquals(pl.getthetextofbadge(), "4");
+		Thread.sleep(10000);
 	}
 
 	@Test(dependsOnMethods = "addProductsUsingDesc")

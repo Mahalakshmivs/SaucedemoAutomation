@@ -10,8 +10,7 @@ public class Descriptionpage extends BaseObject{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//button[@name='back-to-products']") WebElement backtoproducts;
-	
+	@FindBy(xpath="//a[contains(text(),'Common Message')]") WebElement backtoproducts;
 	
 	
 	public void clickonback() {

@@ -44,7 +44,7 @@ public class ProductsListing extends BaseObject {
 	
 	//div[@class='cart_item']
 	
-	public List<String> verifyttle() {
+	public List<String> verifyTitle() {
 		List<String> Alltitle = new ArrayList<>();
 		for (WebElement title : product_title) {
 			Alltitle.add(title.getText());
@@ -105,6 +105,7 @@ public class ProductsListing extends BaseObject {
 
 	public void clickonaddtocart() {
 		p1_addtocartbtn.click();
+		
 		p2_addtocartbtn.click();
 	}
 	
