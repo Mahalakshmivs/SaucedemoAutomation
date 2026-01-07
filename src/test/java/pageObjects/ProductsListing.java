@@ -105,7 +105,6 @@ public class ProductsListing extends BaseObject {
 
 	public void clickonaddtocart() {
 		p1_addtocartbtn.click();
-		
 		p2_addtocartbtn.click();
 	}
 	
