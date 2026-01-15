@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class Sidemenu extends BaseObject{
 
@@ -21,11 +22,10 @@ public class Sidemenu extends BaseObject{
 	WebElement abt;
 	
 	public void clickonhamburger() {
-		btn_hamburger.click();
-		
+		btn_hamburger.click();	
 	}
 	public void clickonlogout() {
-		a_logout.click();	
+		a_logout.click();
 	}
 	
 	public void clickonabt() {

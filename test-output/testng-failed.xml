@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="masters"/>
+      </run>
+    </groups>
     <classes>
-      <class name="SauceDemo_TestCases.Checkoutpagevalidation">
+      <class name="SauceDemo_TestCases.TC004_Cartfunctionalites">
         <methods>
-          <include name="vaildateFinishfun"/>
+          <include name="getNumberOfItems"/>
+          <include name="removeProductsFromCart"/>
+          <include name="baseSetUp"/>
+          <include name="addProductsUsingDesc"/>
+          <include name="cartPage"/>
+          <include name="clickOnContinue"/>
+          <include name="refreshPage"/>
+          <include name="tearDown"/>
+          <include name="addProductsToCart"/>
+        </methods>
+      </class> <!-- SauceDemo_TestCases.TC004_Cartfunctionalites -->
+      <class name="SauceDemo_TestCases.TC005_EmptyCartpage">
+        <methods>
+          <include name="baseSetUp"/>
+          <include name="emptyCartPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SauceDemo_TestCases.TC005_EmptyCartpage -->
+      <class name="SauceDemo_TestCases.TC002_Productlisting">
+        <methods>
+          <include name="verifyProduvtTitleNavigation"/>
+          <include name="verifyProductTitlesAreNotEmpty"/>
           <include name="baseSetUp"/>
           <include name="tearDown"/>
-          <include name="validateZipCode"/>
-          <include name="backToHomebtn"/>
-          <include name="CancelButtonValidation"/>
+          <include name="verifyProductImageExtensions"/>
+          <include name="verifyProductImageNavigation"/>
         </methods>
-      </class> <!-- SauceDemo_TestCases.Checkoutpagevalidation -->
+      </class> <!-- SauceDemo_TestCases.TC002_Productlisting -->
+      <class name="SauceDemo_TestCases.TC006_CheckOutPageDDT">
+        <methods>
+          <include name="baseSetUp"/>
+          <include name="gotocart"/>
+          <include name="testCheckOutPage" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SauceDemo_TestCases.TC006_CheckOutPageDDT -->
+      <class name="SauceDemo_TestCases.TC001_Login">
+        <methods>
+          <include name="baseSetUp"/>
+          <include name="tearDown"/>
+          <include name="adlogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SauceDemo_TestCases.TC001_Login -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

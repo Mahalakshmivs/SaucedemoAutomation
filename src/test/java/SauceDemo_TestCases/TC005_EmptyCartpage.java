@@ -8,15 +8,15 @@ import saucedemo_BaseClass.saucedemo_BaseClasses;
 
 public class TC005_EmptyCartpage extends saucedemo_BaseClasses{
 	
-	@Test (priority = 1)
+	@Test (priority = 1 ,groups = "masters")
 	public  void emptyCartPage() {
 		ProductsListing pl = new ProductsListing(driver);
-		pl.clickoncart();
+		pl.clickOnCart();
 		Carts cart=new Carts(driver);
 		Assert.assertEquals(true,cart.emptycartpage());
 		
 	}
-	@Test(priority = 2 ,alwaysRun = true)
+	@Test(priority = 2,groups = "masters")
 	public void checkoutPageProducts() {
 		Carts cart=new Carts(driver);
 		cart.checkout();
