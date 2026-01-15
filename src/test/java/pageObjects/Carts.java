@@ -36,7 +36,8 @@ public class Carts extends BaseObject {
 
 	
 	public int numofprodutsincart() {
-		return cartitems.size();
+		int numbersOfItems= cartitems.size();
+		return numbersOfItems;
 	}
 	public void removeoneproducts() {
 		remove.click();

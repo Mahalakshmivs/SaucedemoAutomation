@@ -13,21 +13,18 @@ public class TC003_ProductFilters extends saucedemo_BaseClasses {
 	// value in dropdown
 	// vaild the dropwndown is also displayed
 
-	@Test
-	public void verifyDisplayofDropdown() throws InterruptedException {
-		ProductsListing pl = new ProductsListing(driver);
-		WebElement drpdisplayed = pl.drp_filter;
-		Assert.assertEquals(drpdisplayed.isDisplayed(), true);
-		Thread.sleep(2000);
+	@Test(groups = "masters")
+	public void verifyDisplayOfDropdown() throws InterruptedException {
+		WebElement drpDisplayed = pl.dropdown_filter;
+		Assert.assertEquals(drpDisplayed.isDisplayed(), true);
 
 	}
 
-	@Test(dependsOnMethods = "verifyDisplayofDropdown")
+	@Test(dependsOnMethods = "verifyDisplayOfDropdown",groups = "masters")
 	public void selectionOfFilters() {
-		ProductsListing pl = new ProductsListing(driver);
-		mywait.until(ExpectedConditions.visibilityOf(pl.drp_filter));
-		pl.clickonfilter();
-		pl.selectfilters();
+		mywait.until(ExpectedConditions.visibilityOf(pl.dropdown_filter));
+		pl.clickOnFilters();
+		pl.selectFilters();
 	}
 
 }

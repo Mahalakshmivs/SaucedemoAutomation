@@ -1,37 +1,1225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="35" passed="18" failed="10" skipped="7">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-07T17:02:10 IST" name="Default suite" finished-at="2026-01-07T17:02:50 IST" duration-ms="39741">
+  <suite started-at="2026-01-15T15:37:37 IST" name="Suite" finished-at="2026-01-15T15:39:25 IST" duration-ms="107821">
     <groups>
+      <group name="masters">
+        <method signature="TC002_Productlisting.verifyProductTitlesAreNotEmpty()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" name="verifyProductTitlesAreNotEmpty" class="SauceDemo_TestCases.TC002_Productlisting"/>
+        <method signature="TC002_Productlisting.verifyProductImageExtensions()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" name="verifyProductImageExtensions" class="SauceDemo_TestCases.TC002_Productlisting"/>
+        <method signature="TC002_Productlisting.verifyProductImageNavigation()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" name="verifyProductImageNavigation" class="SauceDemo_TestCases.TC002_Productlisting"/>
+        <method signature="TC002_Productlisting.verifyProduvtTitleNavigation()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" name="verifyProduvtTitleNavigation" class="SauceDemo_TestCases.TC002_Productlisting"/>
+        <method signature="TC003_ProductFilters.verifyDisplayOfDropdown()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" name="verifyDisplayOfDropdown" class="SauceDemo_TestCases.TC003_ProductFilters"/>
+        <method signature="TC003_ProductFilters.selectionOfFilters()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" name="selectionOfFilters" class="SauceDemo_TestCases.TC003_ProductFilters"/>
+        <method signature="TC004_Cartfunctionalites.addProductsToCart()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="addProductsToCart" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.addProductsUsingDesc()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="addProductsUsingDesc" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.cartPage()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="cartPage" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.getNumberOfItems()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="getNumberOfItems" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.removeProductsFromCart()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="removeProductsFromCart" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.clickOnContinue()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="clickOnContinue" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC004_Cartfunctionalites.refreshPage()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" name="refreshPage" class="SauceDemo_TestCases.TC004_Cartfunctionalites"/>
+        <method signature="TC006_CheckOutPageDDT.gotocart()[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" name="gotocart" class="SauceDemo_TestCases.TC006_CheckOutPageDDT"/>
+        <method signature="TC006_CheckOutPageDDT.testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" name="testCheckOutPage" class="SauceDemo_TestCases.TC006_CheckOutPageDDT"/>
+        <method signature="TC007_CheckoutPage.validateEmptyZipCode()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" name="validateEmptyZipCode" class="SauceDemo_TestCases.TC007_CheckoutPage"/>
+        <method signature="TC007_CheckoutPage.validateCancelCheckout()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" name="validateCancelCheckout" class="SauceDemo_TestCases.TC007_CheckoutPage"/>
+        <method signature="TC007_CheckoutPage.validateFinishOrder()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" name="validateFinishOrder" class="SauceDemo_TestCases.TC007_CheckoutPage"/>
+        <method signature="TC007_CheckoutPage.navigateHomePage()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" name="navigateHomePage" class="SauceDemo_TestCases.TC007_CheckoutPage"/>
+        <method signature="TC005_EmptyCartpage.emptyCartPage()[pri:1, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" name="emptyCartPage" class="SauceDemo_TestCases.TC005_EmptyCartpage"/>
+        <method signature="TC005_EmptyCartpage.checkoutPageProducts()[pri:2, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" name="checkoutPageProducts" class="SauceDemo_TestCases.TC005_EmptyCartpage"/>
+        <method signature="TC001_Login.adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" name="adlogin" class="SauceDemo_TestCases.TC001_Login"/>
+      </group> <!-- masters -->
     </groups>
-    <test started-at="2026-01-07T17:02:10 IST" name="Default test" finished-at="2026-01-07T17:02:50 IST" duration-ms="39741">
-      <class name="SauceDemo_TestCases.Checkoutpagevalidation">
-        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:10 IST" name="baseSetUp" finished-at="2026-01-07T17:02:14 IST" duration-ms="3919" status="PASS">
+    <test started-at="2026-01-15T15:37:37 IST" name="Test" finished-at="2026-01-15T15:39:25 IST" duration-ms="107821">
+      <class name="SauceDemo_TestCases.TC007_CheckoutPage">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:07 IST" name="baseSetUp" finished-at="2026-01-15T15:38:10 IST" duration-ms="3189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseSetUp -->
-        <test-method signature="validateZipCode()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:14 IST" name="validateZipCode" finished-at="2026-01-07T17:02:25 IST" duration-ms="11408" status="PASS">
+        <test-method signature="validateEmptyZipCode()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:10 IST" name="validateEmptyZipCode" finished-at="2026-01-15T15:38:14 IST" duration-ms="4009" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateZipCode -->
-        <test-method signature="CancelButtonValidation()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:25 IST" name="CancelButtonValidation" finished-at="2026-01-07T17:02:27 IST" depends-on-methods="SauceDemo_TestCases.Checkoutpagevalidation.validateZipCode" duration-ms="2158" status="PASS">
+        </test-method> <!-- validateEmptyZipCode -->
+        <test-method signature="validateCancelCheckout()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:14 IST" name="validateCancelCheckout" finished-at="2026-01-15T15:38:15 IST" depends-on-methods="SauceDemo_TestCases.TC007_CheckoutPage.validateEmptyZipCode" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CancelButtonValidation -->
-        <test-method signature="vaildateFinishfun()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:27 IST" name="vaildateFinishfun" finished-at="2026-01-07T17:02:39 IST" depends-on-methods="SauceDemo_TestCases.Checkoutpagevalidation.CancelButtonValidation" duration-ms="11465" status="PASS">
+        </test-method> <!-- validateCancelCheckout -->
+        <test-method signature="validateFinishOrder()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:15 IST" name="validateFinishOrder" finished-at="2026-01-15T15:38:15 IST" depends-on-methods="SauceDemo_TestCases.TC007_CheckoutPage.validateCancelCheckout" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vaildateFinishfun -->
-        <test-method signature="backToHomebtn()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:39 IST" name="backToHomebtn" finished-at="2026-01-07T17:02:49 IST" depends-on-methods="SauceDemo_TestCases.Checkoutpagevalidation.vaildateFinishfun" duration-ms="10256" status="PASS">
+        </test-method> <!-- validateFinishOrder -->
+        <test-method signature="navigateHomePage()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:15 IST" name="navigateHomePage" finished-at="2026-01-15T15:38:16 IST" depends-on-methods="SauceDemo_TestCases.TC007_CheckoutPage.validateFinishOrder" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- backToHomebtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.Checkoutpagevalidation@6e950bcf]" started-at="2026-01-07T17:02:49 IST" name="tearDown" finished-at="2026-01-07T17:02:50 IST" duration-ms="448" status="PASS">
+        </test-method> <!-- navigateHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC007_CheckoutPage@61a88b8c]" started-at="2026-01-15T15:38:16 IST" name="tearDown" finished-at="2026-01-15T15:38:16 IST" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SauceDemo_TestCases.Checkoutpagevalidation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- SauceDemo_TestCases.TC007_CheckoutPage -->
+      <class name="SauceDemo_TestCases.TC005_EmptyCartpage">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" started-at="2026-01-15T15:39:21 IST" name="baseSetUp" finished-at="2026-01-15T15:39:23 IST" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="emptyCartPage()[pri:1, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" started-at="2026-01-15T15:39:23 IST" name="emptyCartPage" finished-at="2026-01-15T15:39:24 IST" duration-ms="185" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at org.testng.Assert.assertEquals(Assert.java:1089)
+at SauceDemo_TestCases.TC005_EmptyCartpage.emptyCartPage(TC005_EmptyCartpage.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartPage -->
+        <test-method signature="checkoutPageProducts()[pri:2, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" started-at="2026-01-15T15:39:24 IST" name="checkoutPageProducts" finished-at="2026-01-15T15:39:24 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC005_EmptyCartpage@7241a47d]" started-at="2026-01-15T15:39:24 IST" name="tearDown" finished-at="2026-01-15T15:39:25 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC005_EmptyCartpage -->
+      <class name="SauceDemo_TestCases.TC003_ProductFilters">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" started-at="2026-01-15T15:39:10 IST" name="baseSetUp" finished-at="2026-01-15T15:39:12 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="verifyDisplayOfDropdown()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" started-at="2026-01-15T15:39:12 IST" name="verifyDisplayOfDropdown" finished-at="2026-01-15T15:39:12 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisplayOfDropdown -->
+        <test-method signature="selectionOfFilters()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" started-at="2026-01-15T15:39:12 IST" name="selectionOfFilters" finished-at="2026-01-15T15:39:13 IST" depends-on-methods="SauceDemo_TestCases.TC003_ProductFilters.verifyDisplayOfDropdown" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectionOfFilters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC003_ProductFilters@3f270e0a]" started-at="2026-01-15T15:39:13 IST" name="tearDown" finished-at="2026-01-15T15:39:13 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC003_ProductFilters -->
+      <class name="SauceDemo_TestCases.TC006_CheckOutPageDDT">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:16 IST" name="baseSetUp" finished-at="2026-01-15T15:38:19 IST" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="gotocart()[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:19 IST" name="gotocart" finished-at="2026-01-15T15:38:47 IST" duration-ms="28539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocart -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:48 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:49 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="836" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23WEE@#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:49 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:49 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="836" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[!@#$]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:49 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:50 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="767" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WW234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:50 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:51 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="777" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[357890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:51 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:52 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="791" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[%^0)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:52 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:53 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="811" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#$&*((]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test didn't pass for invalid data it accepted the spl characters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at SauceDemo_TestCases.TC006_CheckOutPageDDT.testCheckOutPage(TC006_CheckOutPageDDT.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method signature="testCheckOutPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:53 IST" name="testCheckOutPage" data-provider="CheckoutPageData" finished-at="2026-01-15T15:38:53 IST" depends-on-methods="SauceDemo_TestCases.TC006_CheckOutPageDDT.gotocart" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56003]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC006_CheckOutPageDDT@22295ec4]" started-at="2026-01-15T15:38:53 IST" name="tearDown" finished-at="2026-01-15T15:38:54 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC006_CheckOutPageDDT -->
+      <class name="SauceDemo_TestCases.TC004_Cartfunctionalites">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:38:54 IST" name="baseSetUp" finished-at="2026-01-15T15:38:57 IST" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="addProductsToCart()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:38:57 IST" name="addProductsToCart" finished-at="2026-01-15T15:39:09 IST" duration-ms="12028" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='shopping_cart_badge']"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8025d4e081372fb65d9323a48bf83d7, findElement {using=xpath, value=//span[@class='shopping_cart_badge']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\MAHALA~1.VS\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57612}, goog:processID: 624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57612/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8025d4e081372fb65d9323a48bf83d7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='shopping_cart_badge']"}
+  (Session info: chrome=143.0.7499.194)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8025d4e081372fb65d9323a48bf83d7, findElement {using=xpath, value=//span[@class='shopping_cart_badge']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\MAHALA~1.VS\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57612}, goog:processID: 624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57612/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c8025d4e081372fb65d9323a48bf83d7
+at jdk.internal.reflect.GeneratedConstructorAccessor56.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at pageObjects.ProductsListing.isbadgeDisplayed(ProductsListing.java:124)
+at SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsToCart(TC004_Cartfunctionalites.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsToCart -->
+        <test-method signature="addProductsUsingDesc()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="addProductsUsingDesc" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsToCart" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsUsingDesc() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsToCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsUsingDesc() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsToCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsUsingDesc -->
+        <test-method signature="cartPage()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="cartPage" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsUsingDesc" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.cartPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsUsingDesc() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.cartPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.addProductsUsingDesc() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method signature="getNumberOfItems()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="getNumberOfItems" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.cartPage" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.getNumberOfItems() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.cartPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.getNumberOfItems() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.cartPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNumberOfItems -->
+        <test-method signature="removeProductsFromCart()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="removeProductsFromCart" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.getNumberOfItems" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.removeProductsFromCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.getNumberOfItems() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.removeProductsFromCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.getNumberOfItems() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductsFromCart -->
+        <test-method signature="clickOnContinue()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="clickOnContinue" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.removeProductsFromCart" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.clickOnContinue() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.removeProductsFromCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.clickOnContinue() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.removeProductsFromCart() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContinue -->
+        <test-method signature="refreshPage()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="refreshPage" finished-at="2026-01-15T15:39:09 IST" depends-on-methods="SauceDemo_TestCases.TC004_Cartfunctionalites.clickOnContinue" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC004_Cartfunctionalites.refreshPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.clickOnContinue() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC004_Cartfunctionalites.refreshPage() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC004_Cartfunctionalites.clickOnContinue() on instance SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC004_Cartfunctionalites@5adb0db3]" started-at="2026-01-15T15:39:09 IST" name="tearDown" finished-at="2026-01-15T15:39:09 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC004_Cartfunctionalites -->
+      <class name="SauceDemo_TestCases.TC001_Login">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:37:37 IST" name="baseSetUp" finished-at="2026-01-15T15:37:41 IST" duration-ms="3676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:37:42 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:37:54 IST" duration-ms="11573" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0a9893a0de7b7a202c4667b7e021502, clickElement {id=f.9F5DDCD4B5A393E386A8A4B2566825ED.d.F5928E775677FE0D0CCABD2139D9F523.e.43}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\MAHALA~1.VS\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56403}, goog:processID: 29440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56403/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0a9893a0de7b7a202c4667b7e021502)] -> xpath: //a[contains(text(),'Logout')]]
+Session ID: a0a9893a0de7b7a202c4667b7e021502]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0a9893a0de7b7a202c4667b7e021502, clickElement {id=f.9F5DDCD4B5A393E386A8A4B2566825ED.d.F5928E775677FE0D0CCABD2139D9F523.e.43}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\MAHALA~1.VS\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56403}, goog:processID: 29440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56403/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0a9893a0de7b7a202c4667b7e021502)] -> xpath: //a[contains(text(),'Logout')]]
+Session ID: a0a9893a0de7b7a202c4667b7e021502
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pageObjects.Sidemenu.clickonlogout(Sidemenu.java:28)
+at SauceDemo_TestCases.TC001_Login.adlogin(TC001_Login.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:37:54 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:37:58 IST" duration-ms="4118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:37:58 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:37:59 IST" duration-ms="1424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_uer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[scret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:37:59 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:38:01 IST" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:38:01 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:38:02 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:38:02 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:38:04 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[txt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:38:04 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:38:05 IST" duration-ms="1386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method signature="adlogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:38:05 IST" name="adlogin" data-provider="logindata" finished-at="2026-01-15T15:38:06 IST" duration-ms="1409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC001_Login@e19bb76]" started-at="2026-01-15T15:38:06 IST" name="tearDown" finished-at="2026-01-15T15:38:07 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC001_Login -->
+      <class name="SauceDemo_TestCases.TC002_Productlisting">
+        <test-method is-config="true" signature="baseSetUp()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:13 IST" name="baseSetUp" finished-at="2026-01-15T15:39:16 IST" duration-ms="2631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method signature="verifyProductTitlesAreNotEmpty()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:16 IST" name="verifyProductTitlesAreNotEmpty" finished-at="2026-01-15T15:39:16 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTitlesAreNotEmpty -->
+        <test-method signature="verifyProductImageExtensions()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:16 IST" name="verifyProductImageExtensions" finished-at="2026-01-15T15:39:16 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.verifyProductTitlesAreNotEmpty" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductImageExtensions -->
+        <test-method signature="verifyProductImageNavigation()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:16 IST" name="verifyProductImageNavigation" finished-at="2026-01-15T15:39:21 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.verifyProductImageExtensions" duration-ms="4584" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed becoz the url was not containing the Expected Parameters expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed becoz the url was not containing the Expected Parameters expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at SauceDemo_TestCases.TC002_Productlisting.verifyProductImageNavigation(TC002_Productlisting.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductImageNavigation -->
+        <test-method signature="verifyProduvtTitleNavigation()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:21 IST" name="verifyProduvtTitleNavigation" finished-at="2026-01-15T15:39:21 IST" depends-on-methods="SauceDemo_TestCases.TC002_Productlisting.verifyProductImageNavigation" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SauceDemo_TestCases.TC002_Productlisting.verifyProduvtTitleNavigation() on instance SauceDemo_TestCases.TC002_Productlisting@1a760689 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC002_Productlisting.verifyProductImageNavigation() on instance SauceDemo_TestCases.TC002_Productlisting@1a760689]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SauceDemo_TestCases.TC002_Productlisting.verifyProduvtTitleNavigation() on instance SauceDemo_TestCases.TC002_Productlisting@1a760689 depends on not successfully finished methods 
+[SauceDemo_TestCases.TC002_Productlisting.verifyProductImageNavigation() on instance SauceDemo_TestCases.TC002_Productlisting@1a760689]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduvtTitleNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SauceDemo_TestCases.TC002_Productlisting@1a760689]" started-at="2026-01-15T15:39:21 IST" name="tearDown" finished-at="2026-01-15T15:39:21 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SauceDemo_TestCases.TC002_Productlisting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

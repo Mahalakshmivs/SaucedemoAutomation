@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class loginpage extends BaseObject {
 
@@ -17,31 +18,22 @@ public class loginpage extends BaseObject {
 	WebElement txt_password;
 	@FindBy(xpath = "//input[@id='login-button']")
 	WebElement btn_submit;
-	
-	
 	@FindBy(xpath = "//div[@class='app_logo']")
 	WebElement logo;
 
 	// actions methods
 	public void enterEmail(String username) {
-		txt_email.sendKeys(username);
+		mywait.until(ExpectedConditions.visibilityOf(txt_email)).sendKeys(username);
 	}
 	public void enterPassword(String password) {
-		txt_password.sendKeys(password);
+		mywait.until(ExpectedConditions.visibilityOf(txt_password)).sendKeys(password);
 	}
 	public void clicklogin() {
-		btn_submit.click();
+		mywait.until(ExpectedConditions.visibilityOf(btn_submit)).click();
 	}
-	public void clearEmail() {
-		txt_email.clear();
-	}
-	public void clearPassword() {
-		txt_password.clear();
-	}
-	
 	public boolean logoisplayed() {
 	    try {
-	        return logo.isDisplayed();
+	    	return logo.isDisplayed();
 	    } catch (Exception e) {
 	        return false;  
 	    }

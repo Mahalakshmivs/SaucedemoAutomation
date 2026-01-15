@@ -31,7 +31,7 @@ public class saucedemo_BaseClasses{
 	 public Checkout check;
 	 public WebDriverWait mywait;
 	
-	@BeforeClass
+	@BeforeClass(groups = "masters")
 	public void baseSetUp() throws IOException{
 		
 		FileReader filepath=new FileReader("./src//test//resources//Config.properties");
@@ -39,7 +39,7 @@ public class saucedemo_BaseClasses{
 		pro.load(filepath);
 		driver=new ChromeDriver();
 		driver.get(pro.getProperty("url"));
-		mywait=new WebDriverWait(driver, Duration.ofSeconds(10));
+		mywait=new WebDriverWait(driver, Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		ad = new loginpage(driver);
 		pl= new ProductsListing(driver);
@@ -50,11 +50,13 @@ public class saucedemo_BaseClasses{
 		ad.clicklogin();
 
 	}
-	
 
-	@AfterClass
+	@AfterClass(groups = "masters")
 	public void tearDown() {
-		driver.quit();
+		if(driver!=null)
+		{
+			driver.quit();
+		}
 	}
 
 
